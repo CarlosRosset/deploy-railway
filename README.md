@@ -1,26 +1,73 @@
-# Deploy Next.js to Railway
+# Implantar Next.js no Railway
 
-This is a Next.js template which can be deployed to [Railway](https://railway.app) with zero configuration.
+Este é um modelo de aplicação Next.js que pode ser implantado facilmente na plataforma Railway sem necessidade de configuração.
 
-## Deploying to Railway
+## Implantando no Railway
 
-Railway automatically configures your Next.js application to run as a Node.js server (through `next start`). You can deploy to Railway using their CLI or GitHub integration.
+O Railway configura automaticamente sua aplicação Next.js para rodar como um servidor Node.js (através de `next start`). Você pode implantar no Railway usando o CLI ou integração com o GitHub.
 
-Click the button below to begin:
+Clique no botão abaixo para começar:
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/yDom4a)
+[![Implantar no Railway](https://railway.app/button.svg)](https://railway.com/new/template/yDom4a)
 
-We highly recommend that you eject from the template after deployment to create a copy of the repo on your GitHub account.
+Recomendamos fortemente que você faça um fork do modelo após a implantação para criar uma cópia do repositório na sua conta do GitHub.
 
-**Note:** You can also choose from a variety of [Next.js app templates](https://railway.app/templates?q=nextjs) created by the community.
+**Nota:** Você também pode escolher entre uma variedade de [modelos de aplicativos Next.js](https://railway.app/templates?q=nextjs) criados pela comunidade.
 
-For more information, see our [deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying#self-hosting).
+Para mais informações, consulte nossa [documentação de implantação](https://nextjs.org/docs/app/building-your-application/deploying#self-hosting).
 
-## Learn More
+## Aprenda Mais
 
-To learn more about deploying Next.js, take a look at the following resources:
+Para aprender mais sobre a implantação do Next.js, dê uma olhada nos seguintes recursos:
 
-- [Next.js deployment documentation](https://nextjs.org/docs): Learn about Next.js features and API.
-- [Deploying Next.js to Railway](https://docs.railway.app/quick-start): A quickstart guide on deploying Next.js to Railway via GitHub, Railway CLI, or Docker.
+- [Documentação de implantação do Next.js](https://nextjs.org/docs): Aprenda sobre os recursos e a API do Next.js.
+- [Implantar Next.js no Railway](https://docs.railway.app/quick-start): Um guia de início rápido sobre como implantar o Next.js no Railway via GitHub, CLI do Railway ou Docker.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Você pode conferir [o repositório do Next.js no GitHub](https://github.com/vercel/next.js) - seu feedback e contribuições são bem-vindos!
+
+### Next.js no Railway
+
+Este é um modelo de aplicação Next.js que pode ser implantado facilmente na plataforma Railway.
+
+#### Como Usar
+
+1. **Instalar Dependências**:
+   ```bash
+   pnpm install
+   ```
+
+2. **Executar em Modo de Desenvolvimento**:
+   ```bash
+   pnpm dev
+   ```
+
+3. **Compilar para Produção**:
+   ```bash
+   pnpm build
+   ```
+
+4. **Iniciar o Servidor de Produção**:
+   ```bash
+   pnpm start
+   ```
+
+#### Implantação no Railway
+
+1. **Crie um Novo Projeto** no Railway.
+2. **Conecte seu Repositório** ao projeto.
+3. **Configurações de Build**:
+   - O Railway detectará automaticamente que este é um projeto Next.js e configurará o build e o deploy.
+
+4. **Variáveis de Ambiente**:
+   - Se necessário, adicione variáveis de ambiente no painel do Railway.
+
+5. **Deploy**:
+   - Após conectar o repositório, o deploy será realizado automaticamente.
+
+#### Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+#### Licença
+
+Este projeto está licenciado sob a licença MIT.
